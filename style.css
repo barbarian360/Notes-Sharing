@@ -224,7 +224,7 @@ p {
 
 .header {
   overflow-x: hidden;
-  background: radial-gradient(#fff, rgb(255, 191, 191));
+  background: radial-gradient(#1e879f,#325dc1);
 }
 
 .categories {
@@ -542,7 +542,7 @@ form input {
   opacity: 1;
 }
 
-#pic {
+.pic {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -552,7 +552,7 @@ form input {
   margin-right: 1rem;
 }
 
-#pic>.dev {
+.pic>.dev {
   padding: 10px 0;
 }
 
@@ -762,11 +762,11 @@ form input {
     margin-bottom: none;
   }
 
-  #pic p {
+  .pic p {
     text-align: left;
   }
 
-  #pic h5 {
+  .pic h5 {
     margin-right: 20px;
   }
 
@@ -984,7 +984,7 @@ h3 {
 }
 
 .span {
-  color: #b700ff;
+  color: #5f3535;
 }
 
 /* faqs */
@@ -1030,6 +1030,12 @@ background-color: white;
   font-size: 20px;
 } 
 
+.outer_optgroup{
+  color: red;
+}
+.inner_optgroup{
+  color: #0088cc;
+}
 .answer p { 
   margin: 0; 
   line-height: 1.5; 
